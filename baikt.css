@@ -1,0 +1,236 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+}
+body{
+    background-color: #eeeff1;
+}
+
+.header{
+    height: 80px;
+    width: 100%;
+    /* background-color: skyblue; */
+    display: flex;
+    justify-content: space-between;
+}
+.header__group{
+    height: 100%;
+    width: 20%;
+    margin: 0 50px;
+    /* background-color: springgreen; */
+    display: flex;
+}
+.header__group-img{
+    height: 100%;
+    width: 30%;
+    background-position: center;
+    background-size: 30px;
+    background-repeat: no-repeat;
+    background-image: url(https://uploads-ssl.webflow.com/5fa25266badbdb239c79ef86/60baff5fcc93ec0fda8a19ba_s%20logo%20copy%203.png);
+}
+.header__group p{
+    line-height: 80px;
+    text-align: center;
+    font-weight: 600;
+    font-size: 18px;
+}
+.header__group2{
+    width: 30%;
+}
+.header__group-item{
+    height: 60%;
+    margin: auto;
+    line-height: 48px;
+    margin: auto;
+    font-size:18px;
+    /* background-color: aliceblue; */
+    padding: 0 26px;
+    border-radius:8px;
+    color: #555;
+    font-weight: 600;
+
+}
+.header__group-item3{
+    background-color: #000;
+    color: #fff;
+}
+.header__group-item3:hover{
+    color: #fff;
+    
+}
+.header__group-item:hover{
+    opacity: 0.7;
+    cursor: pointer;
+}
+.header__group-item3:hover{
+    color: #fff;
+    
+}
+
+.container{
+    /* background-color: tomato; */
+ 
+}
+.container-top{
+    height: 610px;
+    width: 100%;
+    /* background-color: antiquewhite; */
+    display: flex;
+}
+.container-top-img{
+    height: 500px;
+    width: 30%;
+    background-image: url(https://uploads-ssl.webflow.com/5fa25266badbdb239c79ef86/600d02571dd34a98dc957dc1_me12%202.png);
+    background-position: center;
+    background-size: cover;
+    margin: auto;
+    margin-right: 60px;
+}
+
+.container-top-p{
+    height: 300px;
+    width: 50%;
+    /* background-color: springgreen; */
+    margin: auto;
+    margin-left: 0;
+}
+.container-top-p h5{
+    font-size: 80px;
+    padding-top: 40px;
+    padding-bottom: 20px;
+}
+.container-top-p p{
+    font-size: 28px;
+}
+
+.container-top2{
+    height: 500px;
+    width: 100%;
+    display: flex;
+    
+}
+
+.container-top2-group{
+    height: 70%;
+    width: 45%;
+    margin: auto;
+    /* background-color: antiquewhite; */
+}
+.container-top2-group2{
+    width: 35%;
+}
+.container-top2-group1 h2{
+    font-size: 60px;
+}
+.container-top2-group1 p{
+    font-size: 22px;
+}
+
+.container-top2-group1s h1{
+    font-size: 40px;
+}
+.container-top2-group1s{
+    width: 80%;
+}
+.container-top2-group1s p{
+    padding-left: 250px;
+}
+
+.container-top3{
+    height: 450px;
+    width: 80%;
+    border: 1px solid #333;
+    margin: auto;
+    border-radius: 10px;
+    display: flex;
+}
+.container-top3-text{
+    font-size: 70px;
+    font-weight: 600;
+    width: 40%;
+    padding: 50px;
+}
+.container-top3-con{
+    height: 80%;
+    width: 50%;
+    background-color: #fff;
+    margin: auto;
+}
+
+.footer{
+    height: 300px;
+    width: 100%;
+    /* background-color: #000; */
+    
+}
+.container-top2-group img{
+    position: absolute;
+    border-radius: 50%;
+    height: 200px;
+    width: 200px;
+}
+
+
+.footer-top{
+    height: 100px;
+    width: 100%;
+    display: flex;
+}
+.footer-top-img{
+    height: 40px;
+    width: 40px;
+    background-image: url(https://uploads-ssl.webflow.com/5fa25266badbdb239c79ef86/5ff799656e9f7150a1ceb0e6_s%20logo%20copy%205.png);
+    background-position: center;
+    background-size: cover;
+    margin: 200px;
+    margin-left: 150px;
+    margin-top: 150px;
+
+}
+
+.footer-top-flex{
+    height: 50px;
+    width: 400px;
+    display: flex;
+}
+.footer-top-flex{
+    margin: auto;
+    /* background-color: springgreen; */
+    margin: 150px;
+    margin-right: 0px;
+    margin-left: 400px;
+
+}
+.footer-top-flex p{
+    margin: auto;
+    color: #8f929e;
+}
+.footer-top h4{
+    font-weight: 400;
+    text-align: center;
+    width: 100%;
+    position: absolute;
+    top: 2400px;
+}
+.end{
+    height: 30px;
+    width: 30px;
+    background-position: center;
+    background-size: cover;
+    background-image: url(https://uploads-ssl.webflow.com/5fa25266badbdb239c79ef86/601142d6c97df432960af285_logo-linkedin.png);
+    margin-left: 100px;
+    margin-top: 80px;
+}
+.ends{
+    height: 30px;
+    width: 30px;
+    background-position: center;
+    background-size: cover;
+    background-image: url(https://uploads-ssl.webflow.com/5fa25266badbdb239c79ef86/6011429d53142082aa4de489_logo-dribbble.png);
+    margin-top: 150px;
+    margin-left: -30px;
+}
+.container-top3-con-top{
+    
+}   
