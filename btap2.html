@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>TodoApp</title>
+    <link rel="stylesheet" href="btap2.css" />
+  </head>
+  <body>
+    <div id="app">
+      <h1 class="heading">Simple TodoApp</h1>
+
+      <form class="create__form">
+        <div class="form__field">
+          <input
+            type="text"
+            placeholder="What do you want to do?"
+            class="form__control"
+          />
+          <button class="form__button">Create</button>
+        </div>
+      </form>
+
+      <form action="" class="filter__form">
+        <div class="form__field">
+          <input
+            class="form__control"
+            type="radio"
+            name="filter"
+            value="all"
+            id="all"
+          />
+          <label class="form__label" for="all">All</label>
+        </div>
+
+        <div class="form__field">
+          <input
+            class="form__control"
+            type="radio"
+            name="filter"
+            value="active"
+            id="active"
+          />
+          <label class="form__label" for="active">Active</label>
+        </div>
+
+        <div class="form__field">
+          <input
+            class="form__control"
+            type="radio"
+            name="filter"
+            value="completed"
+            id="completed"
+          />
+          <label class="form__label" for="completed">Completed</label>
+        </div>
+      </form>
+
+      <ul class="todo__list"></ul>
+
+      <div class="todo__summary">
+        <p class="todo__count">
+          You have <span class="todo__count__value">0</span> pending task
+        </p>
+
+        <button class="todo__clear__button">Clear All</button>
+      </div>
+    </div>
+    <script src="btap2.js"></script>
+  </body>
+</html>
