@@ -17,5 +17,138 @@
 }
 .body { padding-top: 70px; }
 
+.nav-item {
+  font-family: Helvetica;
+  font: size 14px;
+  font-weight: 550;
+  text-transform: uppercase;
+}
+
+.my-input-form { 
+  appearance: none;
+
+  border-bottom: 1px solid black;
+  outline: none;
+  background-color: transparent;
+  width:140px;
+}
+
+.search-button {
+  border-top:hidden;
+  border-left:hidden;
+  border-right:hidden ;
+  color: black;
+  background-color: transparent;
+  border-bottom: 1px solid black;
+ outline: none ;
+  appearance: none;
+}
+
+.user { 
+  border:hidden;
+  color: black;
+  background-color: transparent;
+  outline: none ;
+  appearance: none;
+}
+
+.cart{
+  border:hidden;
+  color: black;
+  background-color: transparent;
+ outline: none ;
+  appearance: none;
+}
+.services-box {
+  max-width: 330px;
+  padding: 0px 4px 0px;
+  margin: 9px 0 0;
+}
+
+
+
+
+@media (max-width: 767px) {
+		.carousel-inner .carousel-item > div {
+			display: none;
+		}
+		.carousel-inner .carousel-item > div:first-child {
+			display: block;
+		}
+	}
+
+	.carousel-inner .carousel-item.active,
+	.carousel-inner .carousel-item-next,
+	.carousel-inner .carousel-item-prev {
+		display: flex;
+	}
+
+	/* medium and up screens */
+	@media (min-width: 768px) {
+
+		.carousel-inner .carousel-item-end.active,
+		.carousel-inner .carousel-item-next {
+			transform: translateX(25%);
+		}
+
+		.carousel-inner .carousel-item-start.active, 
+		.carousel-inner .carousel-item-prev {
+			transform: translateX(-25%);
+		}
+	}
+
+	.carousel-inner .carousel-item-end,
+	.carousel-inner .carousel-item-start { 
+		transform: translateX(0);
+	}
+
+.my-carousel-prev , 
+.my-carousel-next {
+/* box-shadow: 0 0 5px rgba(0, 0, 0, 0.5); */
+background-color: #BBBB;
+border-radius: 50%;
+font-size:
+14px;
+line-height:
+40px;
+margin:
+4px;
+border: transparent;
+width: 40px;
+height: 40px;
+/* opacity: 0;
+   transition: opacity 0.3s ease-in-out; */
+
+/* border-color:white  1px solid; */
+ 
+
+
+}
+
+    .my-carousel-prev:hover ,
+    .my-carousel-next:hover {
+
+transition: transform 0.1s ease-in-out;
+transform: scale(1.0);
+
+  width: 50px;
+  height: 50px;
+ box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
+  
+    }
+
+
+   .product-box{
+    height: 400px;
+   }
+   .card-img-overlay{
+    height: 200px;
+   }
+   
+   .Best-seller-products {
+
+    border: 1px solid black;
+    background-color: gray;
+   }
 
 
